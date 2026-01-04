@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0fdf4;
+    text-align: center;
+}
+
+.title {
+    color: #2f855a;
+}
+
+.controls, .sort-buttons {
+    margin: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid #68b984;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Button Colors */
+.random { background: #4c51bf; }
+.use { background: #2f855a; }
+.bubble { background: #ed8936; }
+.selection { background: #805ad5; }
+.insertion { background: #38a169; }
+.merge { background: #d53f8c; }
+.quick { background: #dd6b20; }
+
+#arrayContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+/* Bars */
+.bar {
+    width: 40px;
+    margin: 0 5px;
+    background: #90cdf4; /* Light blue initially */
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 6px 6px 0 0;
+}
+
+#celebration {
+    display: none;
+    font-size: 28px;
+    color: #e53e3e;
+    margin-top: 20px;
+}
