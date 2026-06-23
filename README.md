@@ -1,8 +1,8 @@
-Sorting Visualizer
+#Sorting Visualizer
 
 An interactive web-based Sorting Visualizer built using HTML, CSS, and JavaScript. It helps users understand how different sorting algorithms work through animated visualizations.
 
-Features:
+#Features:
  Generate random arrays
  Enter custom arrays manually
  Visualize sorting step-by-step
